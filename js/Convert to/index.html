@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Convert</title>
+  </head>
+  <body>
+    <section>
+      <div class="input-area">
+        <form action="">
+          <textarea
+            class="input-field"
+            name=""
+            id="text-content"
+            rows="10"
+            placeholder="Enter the content here"
+          ></textarea>
+        </form>
+
+        <div class="buttons">
+          <button id="toUpper">Convert To Upper Case</button>
+          <button id="toLower">Convert To Lower Case</button>
+          <button id="firstTextUpper">Convert First Letter To Uppercase</button>
+          <button id="copyToClipboard">Copy The Entire Text</button>
+          <button id="character">Count Number of characters</button>
+          <button id="wordCount">Count Number of Words</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="output">
+      <div class="output-heading">
+        <h2 class="text">Converted Text</h2>
+      </div>
+      <div class="output-content">
+        <p class="output-text" id="ouput-answer">No Output Yet</p>
+      </div>
+    </section>
+  </body>
+</html>

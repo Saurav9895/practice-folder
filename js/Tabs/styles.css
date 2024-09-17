@@ -1,0 +1,23 @@
+.tab-content {
+  display: none;
+}
+.visible {
+  display: block;
+}
+.section-tab {
+  border: 1px solid black;
+  margin-top: 12px;
+  padding: 0 20px;
+}
+
+.tab-btn {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.active {
+  background-color: #555;
+  color: white;
+}

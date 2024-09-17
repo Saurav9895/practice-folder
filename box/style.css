@@ -1,0 +1,42 @@
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.vertically {
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally (optional) */
+    height: 100%;
+    background-color: #910b0b; /* Optional: background color for visibility */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+
+.flexing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border: 1px solid black;
+    height: 50px;
+    padding: 20px 10px 20px 10px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+.box1, .box2, .box3 {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 10px;
+}

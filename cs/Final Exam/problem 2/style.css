@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-container {
+  background-color: white;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid grey;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding-right: 1px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.fas.fa-plus-circle {
+  margin-left: 5px;
+}

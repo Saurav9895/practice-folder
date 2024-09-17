@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.input-area,
+.output {
+  width: 60%;
+  margin: 20px auto 0 auto;
+}
+.input-field {
+  width: 100%;
+
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+button {
+  font-size: 16px;
+  border: none;
+  background-color: rgb(12, 41, 31);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.output {
+  border: 1px solid black;
+}
+
+.text {
+  text-align: center;
+}
+
+.output-text {
+  padding: 20px 40px;
+}

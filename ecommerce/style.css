@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+/* .container {
+} */
+.product-title {
+  background-color: rgb(198, 198, 198);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 15px;
+  position: relative;
+}
+
+.product-title::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  letter-spacing: 2px;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+/* ul {
+  padding-left: 20px;
+} */
+
+.details-list li {
+  margin-bottom: 10px;
+}
+.details-list li:last-child {
+  margin-bottom: 0;
+}
+
+.more-info:link {
+  font-size: 18px;
+  color: black;
+  display: inline-block;
+  margin-top: 20px;
+}
+.more-info:visited {
+  font-size: 18px;
+  color: black;
+}
+.more-info:hover {
+  text-decoration: none;
+}
+.more-info:active {
+  text-decoration: none;
+}
+
+.add-cart {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  /* margin-top: 20px; */
+  padding: 10px 0;
+  border-top: 4px solid black;
+}
+
+.add-cart:hover {
+  color: black;
+  background-color: white;
+}
+
+.price {
+  font-size: 24px;
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.p-desc {
+  margin-bottom: 10px;
+  text-align: justify;
+  clear: both;
+}
+
+.product-colors {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.color {
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+  width: 20px;
+  /* display: inline-block; */
+}
+
+.color:last-child {
+  margin-right: 0;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
+.colors {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+/* .shoes-image {
+  float: left;
+
+  margin-right: 40px;
+  
+}
+
+.productinfo {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.productdetails {
+  float: left;
+  width: 243px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  margin-left: 20px;
+  margin-top: 10px;
+} */
+
+.product {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+.product-title {
+  grid-column: 1 /-1;
+}
+.add-cart {
+  grid-column: 1 / -1;
+}
+
+.productinfo {
+  margin-top: 20px;
+}
+
+.productdetails {
+  margin-top: 20px;
+}
+
+.pricetag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+.details-title {
+  margin-top: 0;
+}
+.shipping {
+  margin-bottom: 0;
+}
+
+.more-info:link {
+  margin-top: 0;
+}

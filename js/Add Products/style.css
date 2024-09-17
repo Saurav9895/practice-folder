@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+#product-list {
+  margin-top: 50px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 9px;
+}
